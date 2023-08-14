@@ -11,7 +11,7 @@ public class ExampleBukkitNinja extends JavaPlugin {
     public void onEnable() {
         getLogger().info("Hello, world!");
 
-        Ninja ninja = McStatsNinja.init("demo");
+        Ninja ninja = McStatsNinja.init("demo#bukkit");
 
         try {
             ninja.addShuriken("test", new Ninja.Shuriken<Object>(() -> "test"));
